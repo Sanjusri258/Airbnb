@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6444bf41e75be16f07d46495"
+  },
+  "property_id": {
+    "$oid": "6442719bcea8b4204238a866"
+  },
+  "user_id": {
+    "$oid": "644367616427074d835a1b79"
+  },
+  "rating": 4,
+  "review": "Good had a pleasant stay"
+},{
+  "_id": {
+    "$oid": "6444ef28b69d3b4f16269018"
+  },
+  "property_id": {
+    "$oid": "64423d2a574de447e94644e8"
+  },
+  "user_id": {
+    "$oid": "6444e930fedb26665d475a93"
+  },
+  "rating": 5,
+  "review": "Wonderful location"
+},{
+  "_id": {
+    "$oid": "644517b01d6a0bb770d2123c"
+  },
+  "property_id": {
+    "$oid": "644515bd1d6a0bb770d21236"
+  },
+  "user_id": {
+    "$oid": "644516121d6a0bb770d21237"
+  },
+  "rating": 4,
+  "review": "Very Good"
+}]

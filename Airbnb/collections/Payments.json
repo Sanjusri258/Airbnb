@@ -1,0 +1,147 @@
+[{
+  "_id": {
+    "$oid": "64443b3dbdf36a13ea8add3e"
+  },
+  "booking_id": {
+    "$oid": "64443b3dbdf36a13ea8add3d"
+  },
+  "host_id": {
+    "$oid": "64426e13833f4b7cf5598e0d"
+  },
+  "payment_date": {
+    "$date": "2023-04-23T01:23:33.256Z"
+  },
+  "base_amount": 801,
+  "service_charge": 10,
+  "service_amount": 80.1,
+  "bill_amount": 881.1,
+  "commission_percentage": 10,
+  "commission_amount": 88.11,
+  "host_amount": 792.99,
+  "card_details": {
+    "card_holder": "SIVAKUMAr",
+    "card_number": "7410852096312457",
+    "expiry": "12/2023",
+    "cvv": 639
+  },
+  "is_cancelled": false,
+  "remarks": "Booking Extended"
+},{
+  "_id": {
+    "$oid": "6444eafeb69d3b4f16269015"
+  },
+  "booking_id": {
+    "$oid": "6444eafeb69d3b4f16269014"
+  },
+  "host_id": {
+    "$oid": "6444dd24dfbcd672a4fc7c3b"
+  },
+  "payment_date": {
+    "$date": "2023-04-23T13:53:26.715Z"
+  },
+  "base_amount": 350,
+  "service_charge": 5,
+  "service_amount": 17.5,
+  "bill_amount": 367.5,
+  "commission_percentage": 0,
+  "commission_amount": 0,
+  "host_amount": 36.75,
+  "card_details": {
+    "card_holder": "JIMMY",
+    "card_number": "9638527410963853",
+    "expiry": "25/2024",
+    "cvv": 639
+  },
+  "is_cancelled": true,
+  "remarks": "Booking Cancelled",
+  "cancellation_amount": 36.75,
+  "cancellation_charge": 10,
+  "refund_amount": 330.75
+},{
+  "_id": {
+    "$oid": "6444ede9b69d3b4f16269017"
+  },
+  "booking_id": {
+    "$oid": "6444ede9b69d3b4f16269016"
+  },
+  "host_id": {
+    "$oid": "64422c57961f0b3d8335d016"
+  },
+  "payment_date": {
+    "$date": "2023-04-23T14:05:53.868Z"
+  },
+  "base_amount": 966,
+  "service_charge": 5,
+  "service_amount": 48.3,
+  "bill_amount": 1014.3,
+  "commission_percentage": 10,
+  "commission_amount": 101.43,
+  "host_amount": 912.87,
+  "card_details": {
+    "card_holder": "JIMMY",
+    "card_number": "9638527410258963",
+    "expiry": "08/2024",
+    "cvv": 639
+  },
+  "is_cancelled": false,
+  "remarks": "Booking Extended"
+},{
+  "_id": {
+    "$oid": "644516591d6a0bb770d21239"
+  },
+  "booking_id": {
+    "$oid": "644516591d6a0bb770d21238"
+  },
+  "host_id": {
+    "$oid": "644514bd1d6a0bb770d21235"
+  },
+  "payment_date": {
+    "$date": "2023-04-23T16:58:25.415Z"
+  },
+  "base_amount": 350,
+  "service_charge": 5,
+  "service_amount": 17.5,
+  "bill_amount": 367.5,
+  "commission_percentage": 0,
+  "commission_amount": 0,
+  "host_amount": 36.75,
+  "card_details": {
+    "card_holder": "RANDOM",
+    "card_number": "9638527410123654",
+    "expiry": "12/2024",
+    "cvv": 333
+  },
+  "is_cancelled": true,
+  "remarks": "Booking Cancelled",
+  "cancellation_amount": 36.75,
+  "cancellation_charge": 10,
+  "refund_amount": 330.75
+},{
+  "_id": {
+    "$oid": "644516ef1d6a0bb770d2123b"
+  },
+  "booking_id": {
+    "$oid": "644516ef1d6a0bb770d2123a"
+  },
+  "host_id": {
+    "$oid": "644514bd1d6a0bb770d21235"
+  },
+  "payment_date": {
+    "$date": "2023-04-23T17:00:55.261Z"
+  },
+  "base_amount": 450,
+  "service_charge": 5,
+  "service_amount": 22.5,
+  "bill_amount": 472.5,
+  "commission_percentage": 5,
+  "commission_amount": 23.62,
+  "host_amount": 448.88,
+  "card_details": {
+    "card_holder": "RANDOn",
+    "card_number": "9638527410123654",
+    "expiry": "12/2025",
+    "cvv": 666
+  },
+  "is_cancelled": false,
+  "remarks": "Booking Extended"
+}]

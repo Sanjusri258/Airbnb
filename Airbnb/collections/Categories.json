@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "64422577961f0b3d8335d00e"
+  },
+  "category_name": "Beachfront",
+  "status": true
+},{
+  "_id": {
+    "$oid": "64422588961f0b3d8335d00f"
+  },
+  "category_name": "Cabins",
+  "status": true
+},{
+  "_id": {
+    "$oid": "644228fd961f0b3d8335d010"
+  },
+  "category_name": "Treehouses",
+  "status": true
+},{
+  "_id": {
+    "$oid": "64422930961f0b3d8335d011"
+  },
+  "category_name": "Tiny Homes",
+  "status": true
+}]

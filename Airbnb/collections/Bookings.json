@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "64443b3dbdf36a13ea8add3d"
+  },
+  "user_id": {
+    "$oid": "644367616427074d835a1b79"
+  },
+  "property_id": {
+    "$oid": "6442719bcea8b4204238a866"
+  },
+  "booked_on": {
+    "$date": "2023-04-23T01:23:33.236Z"
+  },
+  "check_in": {
+    "$date": "2023-04-29T00:00:00.000Z"
+  },
+  "check_out": {
+    "$date": "2023-05-08T00:00:00.000Z"
+  },
+  "total_guest": 4,
+  "rate_per_night": 89,
+  "total_nights": 9,
+  "bill_amount": 881.1,
+  "is_checked_in": true,
+  "is_checked_out": true,
+  "is_cancelled": false,
+  "extended_on": {
+    "$date": "2023-04-23T01:25:01.070Z"
+  }
+},{
+  "_id": {
+    "$oid": "6444eafeb69d3b4f16269014"
+  },
+  "user_id": {
+    "$oid": "6444e930fedb26665d475a93"
+  },
+  "property_id": {
+    "$oid": "6444e0a5dfbcd672a4fc7c3c"
+  },
+  "booked_on": {
+    "$date": "2023-04-23T13:53:26.705Z"
+  },
+  "check_in": {
+    "$date": "2023-05-13T00:00:00.000Z"
+  },
+  "check_out": {
+    "$date": "2023-05-20T00:00:00.000Z"
+  },
+  "total_guest": 2,
+  "rate_per_night": 50,
+  "total_nights": 7,
+  "bill_amount": 367.5,
+  "is_checked_in": false,
+  "is_checked_out": false,
+  "is_cancelled": true
+},{
+  "_id": {
+    "$oid": "6444ede9b69d3b4f16269016"
+  },
+  "user_id": {
+    "$oid": "6444e930fedb26665d475a93"
+  },
+  "property_id": {
+    "$oid": "64423d2a574de447e94644e8"
+  },
+  "booked_on": {
+    "$date": "2023-04-23T14:05:53.859Z"
+  },
+  "check_in": {
+    "$date": "2023-05-13T00:00:00.000Z"
+  },
+  "check_out": {
+    "$date": "2023-05-27T00:00:00.000Z"
+  },
+  "total_guest": 2,
+  "rate_per_night": 69,
+  "total_nights": 14,
+  "bill_amount": 1014.3,
+  "is_checked_in": true,
+  "is_checked_out": true,
+  "is_cancelled": false,
+  "extended_on": {
+    "$date": "2023-04-23T14:08:45.200Z"
+  }
+},{
+  "_id": {
+    "$oid": "644516591d6a0bb770d21238"
+  },
+  "user_id": {
+    "$oid": "644516121d6a0bb770d21237"
+  },
+  "property_id": {
+    "$oid": "644515bd1d6a0bb770d21236"
+  },
+  "booked_on": {
+    "$date": "2023-04-23T16:58:25.409Z"
+  },
+  "check_in": {
+    "$date": "2023-05-01T00:00:00.000Z"
+  },
+  "check_out": {
+    "$date": "2023-05-08T00:00:00.000Z"
+  },
+  "total_guest": 2,
+  "rate_per_night": 50,
+  "total_nights": 7,
+  "bill_amount": 367.5,
+  "is_checked_in": false,
+  "is_checked_out": false,
+  "is_cancelled": true
+},{
+  "_id": {
+    "$oid": "644516ef1d6a0bb770d2123a"
+  },
+  "user_id": {
+    "$oid": "644516121d6a0bb770d21237"
+  },
+  "property_id": {
+    "$oid": "644515bd1d6a0bb770d21236"
+  },
+  "booked_on": {
+    "$date": "2023-04-23T17:00:55.253Z"
+  },
+  "check_in": {
+    "$date": "2023-05-15T00:00:00.000Z"
+  },
+  "check_out": {
+    "$date": "2023-05-24T00:00:00.000Z"
+  },
+  "total_guest": 2,
+  "rate_per_night": 50,
+  "total_nights": 9,
+  "bill_amount": 472.5,
+  "is_checked_in": true,
+  "is_checked_out": true,
+  "is_cancelled": false,
+  "extended_on": {
+    "$date": "2023-04-23T17:02:37.556Z"
+  }
+}]

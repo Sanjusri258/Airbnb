@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "644367616427074d835a1b79"
+  },
+  "fullname": "Mitchell J Connery",
+  "email": "user1@gmail.com",
+  "contact_no": "7894561230",
+  "password": "1234",
+  "status": true
+},{
+  "_id": {
+    "$oid": "6444e930fedb26665d475a93"
+  },
+  "fullname": "Jimmy A Thomas",
+  "email": "user2@gmail.com",
+  "contact_no": "301-202-0844",
+  "password": "1234",
+  "status": true
+},{
+  "_id": {
+    "$oid": "644516121d6a0bb770d21237"
+  },
+  "fullname": "Test User",
+  "email": "testuser@gmailo.com",
+  "contact_no": "9638527410",
+  "password": "1234",
+  "status": true
+}]

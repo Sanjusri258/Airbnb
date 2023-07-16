@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "64422c57961f0b3d8335d016"
+  },
+  "name": "Paul Godfrey",
+  "email": "host1@gmail.com",
+  "phone": " 646-465-2751",
+  "password": "1234",
+  "is_verified": true,
+  "status": true,
+  "commission_percentage": 10,
+  "about": "My home is a relaxed homestay where you can have your own privacy or socialize with me and other guests.",
+  "languages": "English, Sinhala, Tamil"
+},{
+  "_id": {
+    "$oid": "64426e13833f4b7cf5598e0d"
+  },
+  "name": "James T Hoffman",
+  "email": "host2@gmail.com",
+  "phone": "801-514-8776",
+  "password": "1234",
+  "is_verified": true,
+  "status": true,
+  "commission_percentage": 10,
+  "about": "Since 2016, I've beeing operating a bespoke travel agency in the Maldives. Apart from being your host, I can help you plan your trip too! The Maldives has been my playground for over 10 years and I love to share my knowledge on how to best enjoy this beautiful country! Let me know what your requirements and I can plan a customised trip for it.",
+  "languages": "English"
+},{
+  "_id": {
+    "$oid": "64426e44833f4b7cf5598e0e"
+  },
+  "name": "Mithra Sandy",
+  "email": "host3@gmail.com",
+  "phone": "503-409-0177",
+  "password": "1234",
+  "is_verified": true,
+  "status": true,
+  "commission_percentage": 10
+},{
+  "_id": {
+    "$oid": "6444dd24dfbcd672a4fc7c3b"
+  },
+  "name": "Nithya Shri",
+  "email": "host4@gmail.com",
+  "phone": "7894561230",
+  "password": "1234",
+  "is_verified": true,
+  "status": true,
+  "commission_percentage": 15,
+  "about": "Traveller, foodie and fitness enthusiast\r\nBeen to many countries around the world",
+  "languages": "English, Hindi, Tamil, Telugu"
+},{
+  "_id": {
+    "$oid": "644514bd1d6a0bb770d21235"
+  },
+  "name": "Test Host",
+  "email": "testhost@gmail.com",
+  "phone": "7418529630",
+  "password": "1234",
+  "is_verified": true,
+  "status": true,
+  "commission_percentage": 5,
+  "about": "About Host",
+  "languages": "English, Hindi, Tamil, Telugu"
+}]

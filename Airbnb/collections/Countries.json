@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6442296c961f0b3d8335d012"
+  },
+  "country_name": "Maldives",
+  "status": true
+},{
+  "_id": {
+    "$oid": "64422975961f0b3d8335d013"
+  },
+  "country_name": "Thailand",
+  "status": true
+},{
+  "_id": {
+    "$oid": "6442297f961f0b3d8335d014"
+  },
+  "country_name": "Srilanka",
+  "status": true
+},{
+  "_id": {
+    "$oid": "6442299c961f0b3d8335d015"
+  },
+  "country_name": "India",
+  "status": true
+}]

@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "64423d2a574de447e94644e8"
+  },
+  "host_id": {
+    "$oid": "64422c57961f0b3d8335d016"
+  },
+  "category_id": {
+    "$oid": "64422577961f0b3d8335d00e"
+  },
+  "country_id": {
+    "$oid": "6442297f961f0b3d8335d014"
+  },
+  "property_name": "Moon Isle Beach Bungalow, Nilaveli",
+  "rate_per_night": 69,
+  "max_guest": 3,
+  "property_description": "<div>\r\n    <p>My property is right on the beach with my own private parking at the back, but also walking distance to the main road.</p>\r\n    <p>We have farm land behind us with wild peacocks, chickens, monkeys, and cows roaming freely.</p>\r\n    <p>We can organise boat trips to Pigeon Island where you can snorkel above coral and swim with multicoloured fish and reef sharks.</p>\r\n\r\n    <h5>The space</h5>\r\n    <p>Right on the beach with beautiful farm land behind us, and a short walk to the main road where there is a local convenience store at the corner, and then an ATM, hospital, fruit and veg shops, small supermarket and scooter rental nearby.</p>\r\n\r\n    <h5>Guest access</h5>\r\n    <p>Directions: You can take a bus or tuk tuk from Trincomalee to the 15th kilometer post in Nilaveli. You will see a Honda sign on the left side of the road. When you get out, there is a shop on the corner opposite. On the internet maps, it is Thiruja Fancy Shop. We can pick you up from there or just walk down that road next to the shop all the way to the beach.</p>\r\n  </div>",
+  "property_address": "Trincomalee, Eastern Province, Sri Lanka",
+  "amenities": "Beach access – Beachfront, Wifi, Free parking on premises, Washing machine, Pets allowed, Air conditioning",
+  "image_filename": "Moon-Isle-Beach-Bungalow.jpg",
+  "status": true,
+  "service_charge": 5,
+  "cancellation_charge": 15,
+  "city": "Trincomalee"
+},{
+  "_id": {
+    "$oid": "6442719bcea8b4204238a866"
+  },
+  "host_id": {
+    "$oid": "64426e13833f4b7cf5598e0d"
+  },
+  "category_id": {
+    "$oid": "64422577961f0b3d8335d00e"
+  },
+  "country_id": {
+    "$oid": "6442296c961f0b3d8335d012"
+  },
+  "city": "Kaafu Atoll",
+  "property_name": "Presidential Water Suite",
+  "rate_per_night": 89,
+  "max_guest": 4,
+  "property_description": "<div>\r\n    <p>Our largest overwater suite Leave the outside world behind in our Presidential Water Suite, found at the furthest end of the jetty with so much space, you'll never need to leave. A huge outdoor deck has areas for bathing, dining and relaxing, whilst inside you'll find two bedrooms, two bathrooms and a large living room with uninterrupted lagoon views.</p>\r\n    <h5>The space (Key Features)</h5>\r\n    <ul>\r\n      <li>270sqm villa</li>\r\n      <li>Large pool</li>\r\n      <li>2 bedrooms</li>\r\n    </ul>\r\n    <p>Price includes all meals, speedboat transfer and all taxes :)</p>\r\n  </div>\r\n  ",
+  "property_address": "Kaafu Atoll, Maldives",
+  "amenities": "Beach access – Beachfront, Dedicated workspace, HDTV with cable/satellite TV, Bath, Luggage drop-off allowed, Wifi, Private pool – available all year, open 24 hours, Air conditioning, Private patio or balcony",
+  "image_filename": "pre-water-suit.jpg",
+  "status": true,
+  "service_charge": 10,
+  "cancellation_charge": 15
+},{
+  "_id": {
+    "$oid": "6444e0a5dfbcd672a4fc7c3c"
+  },
+  "host_id": {
+    "$oid": "6444dd24dfbcd672a4fc7c3b"
+  },
+  "category_id": {
+    "$oid": "64422930961f0b3d8335d011"
+  },
+  "country_id": {
+    "$oid": "6442299c961f0b3d8335d015"
+  },
+  "city": "Idukki, kerala",
+  "property_name": "Tree house Nutmeg Valley",
+  "rate_per_night": 50,
+  "service_charge": 5,
+  "cancellation_charge": 10,
+  "max_guest": 2,
+  "property_description": "<div>\r\n    <h5>Dedicated workspace</h5>\r\n    <p>A common area with wifi that's well suited for working.</p>\r\n    <h5>Self check-in</h5>\r\n    <p>You can check in with the doorperson.</p>\r\n    <br>\r\n    <p>Approved by Tourism Department Of Kerala</p>\r\n    <p>Located in Nutmeg Valley Farm Stay, it is 25feet from ground level, has an balcony which gives an stunning view of the valley and river flowing under it</p>\r\n    <h5>The Space</h5>\r\n    <p>Tree house has huge windows with amazing view of the nature around it, attached washroom and a big balcony. The house sits on tree with metallic reinforcements.</p>\r\n  </div>",
+  "property_address": "Idukki, Kerala, India",
+  "amenities": "Mountain view, Lake access, Wifi, Free parking on premises, Kitchen, Shared pool",
+  "image_filename": "idukki-kerala.jpg",
+  "status": true
+},{
+  "_id": {
+    "$oid": "644515bd1d6a0bb770d21236"
+  },
+  "host_id": {
+    "$oid": "644514bd1d6a0bb770d21235"
+  },
+  "category_id": {
+    "$oid": "64422577961f0b3d8335d00e"
+  },
+  "country_id": {
+    "$oid": "6442297f961f0b3d8335d014"
+  },
+  "city": "Trincomalee",
+  "property_name": "Test Title",
+  "rate_per_night": 50,
+  "service_charge": 5,
+  "cancellation_charge": 10,
+  "max_guest": 2,
+  "property_description": "<p>Test description</p>",
+  "property_address": "address",
+  "amenities": "Amn 1, Amn 2, Amn 3",
+  "image_filename": "pre-water-suit.jpg",
+  "status": true
+}]
