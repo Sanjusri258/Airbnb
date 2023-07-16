@@ -1,0 +1,108 @@
+{% set title = 'Add Property' if not property else 'Update Property' %}
+{% set curPage = "hostProperties" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="content container bg-light py-5 px-4 mb-5">
+
+  <h5 class="text-center">{{title}}</h5>
+  <div class="border bg-white p-4">
+
+    <div class="border border-dark-subtle p-4 w-75 m-auto">
+      <form action="{{request.url}}" method="POST" enctype="multipart/form-data">
+        <div class="row mb-3">
+          <div class="col-sm-4 mb-2">
+            <label for="category_id" class="form-label">Select Category</label>
+            <select name="category_id" id="category_id" class="form-select" required>
+              {% for category in categories:%}
+              <option value="{{category['_id']}}" {{'selected' if category['_id']==property['category_id']}}>
+                {{category['category_name']}}
+              </option>
+              {% endfor%}
+            </select>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <label for="country_id" class="form-label">Select Country</label>
+            <select name="country_id" id="country_id" class="form-select" required>
+              {% for country in countries:%}
+              <option value="{{country['_id']}}" {{'selected' if country['_id']==property['country_id']}}>
+                {{country['country_name']}}
+              </option>
+              {% endfor%}
+            </select>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" name="city" id="city" value="{{property['city']}}" required>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-sm-6 mb-2">
+            <label for="property_name" class="form-label">Property Title</label>
+            <input type="text" class="form-control" name="property_name" id="property_name"
+              value="{{property['property_name']}}" required>
+          </div>
+          <div class="col-sm-6 mb-2">
+            <label for="property_image" class="form-label">Property Image</label>
+            <input type="file" class="form-control" id="property_image" name="property_image">
+            <input type="hidden" value="{{property['image_filename']}}" name="image_filename">
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-sm-3 mb-3">
+            <label for="rate_per_night" class="form-label">Rate per night ($)</label>
+            <input type="number" min="1" class="form-control" name="rate_per_night" id="rate_per_night"
+              value="{{property['rate_per_night']}}" required>
+          </div>
+          <div class="col-sm-3 mb-3">
+            <label for="service_charge" class="form-label">Service Charge (%)</label>
+            <input type="number" class="form-control" name="service_charge" id="service_charge"
+              value="{{property['service_charge']}}" required>
+          </div>
+          <div class="col-sm-3 mb-3">
+            <label for="cancellation_charge" class="form-label">Cancellation Charge (%)</label>
+            <input type="number" class="form-control" name="cancellation_charge" id="cancellation_charge"
+              value="{{property['cancellation_charge']}}" required>
+          </div>
+          <div class="col-sm-3 mb-3">
+            <label for="max_guest" class="form-label">Max Guests</label>
+            <input type="number" min="1" class="form-control" id="max_guest" name="max_guest" value="{{property['max_guest']}}">
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-sm-12 mb-4">
+            <label for="property_description" class="form-label">Property Description</label>
+            <textarea class="form-control summernote" name="property_description" id="property_description" rows="3" required>{{property['property_description']}}</textarea>
+          </div>
+          <div class="col-sm-12 mb-2">
+            <label for="property_address" class="form-label">Property Address</label>
+            <textarea class="form-control" name="property_address" id="property_address" rows="3" required>{{property['property_address']}}</textarea>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-sm-12 mb-2">
+            <label for="amenities" class="form-label">Amenities (Type Comma(,) seperated)</label>
+            <textarea class="form-control" name="amenities" id="amenities" rows="3" required>{{property['amenities']}}</textarea>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-sm-6 mb-2">
+            <input type="hidden" name="property_id" value="{{property['_id']}}">
+            <button type="submit" class="btn btn-success w-100">Save</button>
+          </div>
+        </div>        
+
+      </form>
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

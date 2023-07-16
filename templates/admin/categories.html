@@ -1,0 +1,59 @@
+{% set title = "Categories" %}
+{% set curPage = "adminCategories" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="content container bg-light py-5 px-4 mb-5">  
+
+  <h5 class="text-center">{{title}}</h5>
+  <div class="border bg-white p-4">   
+
+    <div class="my-4">
+      <form action="/admin/categories/" method="POST">
+        <div class="row justify-content-center">
+          <div class="col-sm-2  text-end">
+            <label for="category_name" class="col-form-label">Category Name</label>
+          </div>
+          <div class="col-sm-4">
+            <input type="text" class="form-control w-100" name="category_name" id="category_name" value="{{category['category_name']}}" required>
+          </div>
+          <div class="col-sm-1">
+            <input type="hidden" name="category_id" value="{{category['_id']}}">
+            <button type="submit" class="btn btn-success w-100">Save</button>
+          </div>
+          {% if category %}
+          <div class="col-sm-1">
+            <a href="/admin/categories/" class="btn btn-warning  w-100">Cancel</a>
+          </div>
+          {% endif %}
+        </div>
+      </form>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered" id="table">
+        <thead>
+          <th>S.No</th>
+          <th>Category Name</th>
+          <th>Action</th>
+        </thead>
+        <tbody>
+          {% for item in categories %}
+          <tr>
+            <td>{{loop.index}}</td>
+            <td>{{item["category_name"]}}</td>
+            <td>
+              <a href="/admin/categories/?category_id={{item['_id']}}" class="btn btn-sm btn-primary">Edit</a>
+              <a href="/admin/category/delete/{{item['_id']}}/" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+</div>
+
+{% endblock %}
